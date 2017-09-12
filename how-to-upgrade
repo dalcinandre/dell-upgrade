@@ -4,3 +4,4 @@ glibc.i686
 compat-libstdc++.i686
 libxml2 (32 bit)
 procmail.x86_64 ou (32 bit)
+net-tools.x86_64
