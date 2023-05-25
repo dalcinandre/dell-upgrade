@@ -1,5 +1,7 @@
 ## Install dependencies below ##
 
+https://linux.dell.com/repo/hardware/dsu/
+
 ```
 compat-libstdc++.i686
 glibc.i686
