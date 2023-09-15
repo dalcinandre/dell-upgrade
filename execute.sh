@@ -1,7 +1,10 @@
 #!/bin/sh
 #
 
-for i in $(ls *.BIN);
+# trocando as permissões para tornar o arquivo executavel
+find ./ -type f -iname *.bin -exec chmod +x {} \;
+
+for i in *.BIN;
 do
     echo -e "\E[00;33m$i\E[00;37m";
     ./$i -q -c > /dev/null
